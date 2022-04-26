@@ -10,17 +10,17 @@ Gatling is an open source load testing framework based on Scala and is a very po
 
 **Application Under Test:**
 
-We will test performance of Linio.cl website.
+We will test performance of Sodimac website.
 
 **Performance Test scenarios:**
 
 Scenario 1: 
-1. User will open Linio.cl and browse the page.
+1. User will open Sodimac and browse the page.
 2. User will select a random product and open the product's page
 
 Scenario 2:
-1. User will open Linio.cl and browse the page.
-2. User will click on search bar on Linio.cl homepage and search for random string.
+1. User will open Sodimac and browse the page.
+2. User will click on search bar on Sodimac homepage and search for random string.
 
 **Load Pattern:**
 
@@ -28,7 +28,7 @@ Load pattern can be decided by the user running the test using command line argu
 
 Default Load Pattern for both scenarios : 10 users with 10 seconds of rampup time for a duration of 900 seconds.
 
-Linio.cl homepage is included in both scenarios since the homepage is expected to have highest load compared to other pages.
+Sodimac homepage is included in both scenarios since the homepage is expected to have highest load compared to other pages.
 
 **Prerequisites to run the test:**
 
